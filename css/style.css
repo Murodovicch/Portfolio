@@ -652,6 +652,10 @@ body {
         position: static;
     }
 
+    .portfolio-item__overlay {
+        display: none;
+    }
+
     .blog-item {
         width: 100%;
         margin-bottom: 30px;
