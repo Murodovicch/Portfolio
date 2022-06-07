@@ -320,14 +320,13 @@ body {
 }
 
 .portfolio-item-2 {
-    position: absolute;
     top: 0;
     right: 0;
 }
 
 .portfolio-item-3 {
     position: absolute;
-    top: 322px;
+    top: 0;
     right: 0;
 }
 
@@ -649,11 +648,7 @@ body {
 
     .portfolio-item-2,
     .portfolio-item-3 {
-        position: static;
-    }
-
-    .portfolio-item__overlay {
-        display: none;
+        position: relative;
     }
 
     .blog-item {
