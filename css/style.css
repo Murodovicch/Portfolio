@@ -57,6 +57,11 @@ body {
 .main-navigation__item a:hover {
     color: #efb6df;
 }
+
+.main-navigation li.active a {
+    color: #efb6df;
+}
+
 /* header style end */
 
 /* Asosiy style start */
@@ -545,10 +550,6 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-    .main-navigation {
-        display: none;
-    }
-
     .main-section__image {
         display: none;
     }

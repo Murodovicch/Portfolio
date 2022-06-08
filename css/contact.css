@@ -40,6 +40,10 @@ body {
     color: #efb6df;;
 }
 
+.main-navigation li.active a {
+    color: #efb6df;
+}
+
 .button {
     margin-top: 1.87rem;
     background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
