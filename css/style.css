@@ -681,6 +681,12 @@ a {
     }
 }
 
+@media only screen and (max-width: 630px) {
+    .main-navigation__item {
+        display: none;
+    }
+}
+
 
 /* Responsive end */
 

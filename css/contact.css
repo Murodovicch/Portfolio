@@ -178,10 +178,6 @@ textarea, input {
 }
 
 @media only screen and (max-width: 991px) {
-    .main-navigation {
-        display: none;
-    }
-
     .half-row {
         width: 100%;
     }
@@ -196,6 +192,11 @@ textarea, input {
     }
 }
 
+@media only screen and (max-width: 661px) {
+    .main-navigation__item {
+        display: none;
+    }
+}
 
 
 /* Responsive end */
